@@ -1,0 +1,9 @@
+{
+  "local_base_url3": "http://localhost:5004",
+  "local_base_url2": "/kyc",
+  "local_base_url": "https://dev.growsari.com/kyc",
+  "prod_base_url": "sd",
+  "proxy_path": "/kyc_admin",
+  "OTP_URL": "https://x7wzu2lz1m.execute-api.ap-southeast-1.amazonaws.com/dev/graphql",
+  "SESSION_EXPIRED_CODE": 500
+}

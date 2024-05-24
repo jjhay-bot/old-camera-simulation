@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.red,
+.blue,
+.green,
+.silver {
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+.blue {
+  border: 1px solid blue;
+}
+
+.green {
+  border: 1px solid green;
+}
+
+.silver {
+  border: 1px solid silver;
+}
+
+/* DEBUGING TOOL */
+.red,
+.blue,
+.green,
+.silver {
+  border: 0px solid transparent;
+}
+
+button:focus {
+  outline: none;
+}
+
+.pointer {
+  text-decoration: none;
+  /* color: black; */
+}
+
+.pointer:hover {
+  cursor: pointer;
+  filter: brightness(1.05);
+  /* color: #c1c1c1; */
+  /* outline: 1.5px dashed silver; */
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  font-family: "Poppins", sans-serif;
+  /* scrollbar-color: #b2b2b2 #ffffff; */
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  /* width: 7px;
+  height: 7px; */
+  width: 0px;
+  height: 0px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: silver;
+  border-radius: 4px;
+  border: 1px none #ffffff;
+}
+
+.noscrollbar::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+  overflow-y: hidden !important;
+}
+
+.mask {
+  background-color: #272727e5;
+  opacity: 0.4;
+  width: 100%;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Verifier Panel",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./verifier_panel.js"
+}

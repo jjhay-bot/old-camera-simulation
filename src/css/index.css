@@ -1,0 +1,51 @@
+.approve_btn {
+  border-radius: 12px;
+  background-color: #4fab03;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  align-content: center;
+  border-width: 0px;
+  margin-left: 5px;
+
+}
+.reject_btn {
+  border-radius: 12px;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  align-content: center;
+  border-width: 0px;
+  margin-left: 5px;
+}
+.skip_btn{
+  border-radius: 12px;
+  background-color: #555555;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  align-content: center;
+  border-width: 0px;
+  margin-left: 5px;
+}
+#center-template .cen-login {
+  height: 100%;
+  padding: 10px;
+}
+
+.app-center {
+  text-align: center;
+}
+.app-footer {
+  text-align: center;
+  height: 72px;
+}
+#center-template .cen-content {
+  height: calc(100vh - 72px);
+}
+
+#center-template .cen-login {
+  height: 100%;
+  padding: 10px;
+}
